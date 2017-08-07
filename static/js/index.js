@@ -1,35 +1,5 @@
 window.onload = function(){
     $('#loading-mask').fadeOut();
-    closePwd();
-    $('#editpass').click(function() {
-        $('#w').window('open');
-    });
-
-    $('#btnEp').click(function() {
-        $.messager.confirm('系统提示', '您确定要修改吗?', function(r) {
-            if (r) {
-                location.href = '/ajax/loginout.ashx';
-            }
-        });
-    })
-
-    $('#btnCancel').click(function(){closePwd();})
-
-    $('#loginOut').click(function() {
-        $.messager.confirm('系统提示', '您确定要退出本次登录吗?', function(r) {
-            if (r) {
-                alert("已经退出！");
-                location.href = '/ajax/loginout.ashx';
-            }
-        });
-    })
-}
-function closePwd() {
-    $('#w').window({
-        modal: true,
-        shadow: true,
-        closed: true
-    });
 }
 var onlyOpenTitle="欢迎使用";//不允许关闭的标签的标题
 $(function(){
