@@ -1,0 +1,44 @@
+body { font-family:verdana,helvetica,arial,sans-serif; padding:20px; font-size:12px; }
+h2 { font-size:18px; margin-bottom:15px; }
+.demo-info{ padding:0 0 12px 0; }
+.demo-tip{ display:none; }
+.label-top{ display: block; height: 22px; line-height: 22px; vertical-align: middle; }
+
+/*header*/
+.header{ height: 60px!important; line-height: 60px; background: #e0ecff; border-bottom: 1px solid #506c95;}
+.logo{ float: left; padding-left: 10px; font-size: 20px; color: #000;}
+.logo span{ margin-left: 13px;}
+.welcome{ float:right; padding-right: 10px; color: #281300;}
+.welcome a{ color: #281300; text-decoration: underline; margin-right: 10px;}
+
+/*slider*/
+.slider{ width:185px;}
+
+/*footer*/
+.footer{ height: 23px!important; line-height: 23px; background: #66768b; color: #fff; text-align: center;}
+
+/*center*/
+.welcome_tit{ padding: 20px; overflow: hidden;}
+.welcome_tit h1{ font-size: 24px; text-align: center; margin-top:160px;}
+.navlist {list-style-type:none;margin:0px;padding:10px;}
+.navlist li {padding:0px;}
+.navlist li a {line-height:24px;}
+.navlist li div {margin:2px 0px;padding-left:10px;padding-top:2px;border:1px dashed #ffffff;}
+.navlist li div.hover {border:1px dashed #99BBE8;background:#E0ECFF;cursor:pointer;}
+.navlist li div.hover a {color:#416AA3;}
+.navlist li div.selected {border:1px solid #99BBE8;background:#E0ECFF;cursor:default;}
+.navlist li div.selected a {color:#416AA3;font-weight:bold;}
+/*图标设置*/
+.icon {background:url(../images/tabicons.png) no-repeat;width:18px;line-height:18px;display:inline-block;}
+.icon-sys {background-position:0px -200px;}
+.icon-set {background-position:-380px -200px;}
+.icon-nav {background-position: -100px -20px;}
+.icon-users {background-position: -100px -480px;}
+.icon-role {background-position: -360px -200px;}
+.icon-set {background-position: -380px -200px;}
+.icon-log {background-position: -380px -80px;}
+.icon-delete {background-position:-140px -120px;}
+.icon-red {background-position:-40px -99px;}
+.icon-magic {background-position:0px -500px;}
+.icon-database {background-position:-20px -140px;}
+.icon-arrow {background:url('../images/arrow.gif') no-repeat right;}
