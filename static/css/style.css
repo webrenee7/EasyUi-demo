@@ -12,7 +12,7 @@ h2 { font-size:18px; margin-bottom:15px; }
 .welcome a{ color: #281300; text-decoration: underline; margin-right: 10px;}
 
 /*slider*/
-.slider{ width:185px;}
+.slider{ width:300px;}
 
 /*footer*/
 .footer{ height: 23px!important; line-height: 23px; background: #66768b; color: #fff; text-align: center;}
@@ -43,3 +43,9 @@ h2 { font-size:18px; margin-bottom:15px; }
 .icon-magic {background-position:0px -500px;}
 .icon-database {background-position:-20px -140px;}
 .icon-arrow {background:url('../images/arrow.gif') no-repeat right;}
+
+/*slider*/
+.slider .accordion-noborder .accordion-body{height:auto!important;}
+.slider .panel-noscroll{ overflow-y:scroll!important;}
+.slider .accordion{ overflow-y:scroll!important;}
+.slider .panel-tool{ right: 20px;}
